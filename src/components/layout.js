@@ -25,9 +25,9 @@ const Layout = ({ location, title, children }) => {
       <header className="global-header">{header}</header>
       <main>{children}</main>
       <footer>
-        <a href="https://twitter.com/ksealyen" target="_blank">twitter</a>
+        <a href="https://twitter.com/ksealyen" target="_blank" rel="noreferrer">twitter</a>
         •
-        <a href="https://github.com/yigitcandonmez" target="_blank">github</a>
+        <a href="https://github.com/yigitcandonmez" target="_blank" rel="noreferrer">github</a>
       </footer>
     </div>
   )
